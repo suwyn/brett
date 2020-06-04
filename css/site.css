@@ -1,0 +1,41 @@
+html {
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  background-size: cover;
+  background-color: black;
+  height: 100%;
+  overflow: hidden;
+}
+article {
+  background:  rgba(0, 0, 0, 0.75) url(../images/self.png) no-repeat left bottom;
+  background-size: contain;
+  padding: 1em;
+  width: 25%;
+  min-width: 400px;
+  height: 25%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-left: 230px;
+  margin: auto;
+  color: white;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  margin: .5em 0;
+}
+a {
+  color: white;
+}
+a .fab, a .far {
+  font-size: 2em;
+  margin: 0 .25em;
+}
+#links {
+  margin: .5em 0;
+  text-align: right;
+}
