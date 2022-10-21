@@ -7,6 +7,7 @@
     <link href="css/fontawesome.min.css" rel="stylesheet">
     <link href="css/regular.min.css" rel="stylesheet">
     <link href="css/brands.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="css/site.css" rel="stylesheet">
     <script>
       const bgImageIndex = Math.floor(Math.random() * 21);
@@ -14,14 +15,23 @@
       document.getElementsByTagName('html')[0].style.backgroundImage = `url(${bgImage})`;
     </script>
     <body>
-      <article>
-        <h1>Ahoy there, I'm Brett</h1>
-        an avid sailor and technologist currently living in San Francisco.
-        Say <a href="mailto:hi@bre.tt">hi@bre.tt</a>
-        <div id="links">
-          <a href="mailto:hi@bre.tt"><i class="far fa-envelope"></i></a>
-          <a href="https://www.github.com/suwyn"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/br3tt/"><i class="fab fa-linkedin-in"></i></a>
+      <article class="rounded-3 position-absolute top-50 start-50 translate-middle">
+        <div class="row">
+          <div class="col-12 col-sm-6 p-3 text-center">
+            <img src="./images/self.png" height="175px" alt="portrait">
+          </div>
+          <div class="col-12 col-sm-6 p-3">
+            <div>
+              <h1>Ahoy there, I'm <strong>Brett</strong></h1>
+              <p>an avid sailor and technologist currently living in San Francisco.</p>
+              <p>Say <a href="mailto:hi@bre.tt">hi@bre.tt</a></p>
+            </div>
+            <div class="text-end my-3">
+              <a href="mailto:hi@bre.tt"><i class="far fa-envelope"></i></a>
+              <a href="https://www.github.com/suwyn"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/br3tt/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
         </div>
       </article>
     </body>
